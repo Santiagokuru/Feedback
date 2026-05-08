@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=1440" />
+<title>Evaluación · Simulaction</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --green-900: #1f3a22;
+    --green-800: #2a4d2d;
+    --green-700: #356139;
+    --green-600: #467a4b;
+    --green-500: #5b9461;
+    --green-400: #8bb78f;
+    --green-200: #cfe0d1;
+    --green-100: #e5eee6;
+    --green-50:  #f1f6f2;
+    --cream: #f7f4ee;
+    --cream-2: #efeae0;
+    --paper: #ffffff;
+    --ink: #1d231f;
+    --ink-2: #4a5650;
+    --ink-3: #7a857f;
+    --line: #e6e1d6;
+    --line-2: #efece4;
+    --amber-700: #a46a1f;
+    --amber-100: #f6ead2;
+    --gold-500: #f3b950;
+    --gold-600: #d99a2c;
+    --gold-100: #fdecc4;
+    --gold-50:  #fdf6e4;
+    --rose-700: #9a3a3a;
+    --rose-100: #f6dede;
+    --shadow-sm: 0 1px 2px rgba(31,58,34,.04), 0 1px 1px rgba(31,58,34,.03);
+    --shadow-md: 0 4px 14px rgba(31,58,34,.06), 0 1px 2px rgba(31,58,34,.04);
+    --shadow-lg: 0 24px 60px -20px rgba(31,58,34,.18), 0 8px 20px -10px rgba(31,58,34,.08);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Raleway', system-ui, sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "ss01","cv11";
+  }
+  button { font-family: inherit; }
+  .serif { font-family: 'Fraunces', Georgia, serif; font-weight: 500; letter-spacing: -0.01em; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script type="text/babel" src="data.jsx"></script>
+<script type="text/babel" src="icons.jsx"></script>
+<script type="text/babel" src="shell.jsx"></script>
+<script type="text/babel" src="evaluation.jsx"></script>
+<script type="text/babel" src="app.jsx"></script>
+</body>
+</html>
